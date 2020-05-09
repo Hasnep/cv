@@ -1,0 +1,109 @@
+% !TEX program = XeLaTeX
+\documentclass[11pt, a4paper]{article}
+
+% \usepackage{fontspec}
+% % Computer Modern from: https://cm-unicode.sourceforge.io/download.html
+% \setmainfont{CMU Concrete}
+
+% Margins
+\usepackage[margin=1in]{geometry}
+
+% UK English
+\usepackage[UKenglish]{babel}
+
+% Bullet point spacing
+\setlength{\itemsep}{0.1em}
+
+% Remove page numbers
+\pagenumbering{gobble}
+
+% Line spacing
+\usepackage{setspace}
+\setstretch{1}
+
+% URLs
+\usepackage[hidelinks]{hyperref}
+
+% Quotation marks
+\usepackage{csquotes}
+
+\begin{document}
+
+% Header
+\begin{center}
+	{\huge Johannes Smit \\}
+	\vspace{1em}
+	{\large
+	% Email
+	\href{mailto:hannes.smit@live.co.uk}{\nolinkurl{hannes.smit@live.co.uk}}
+	% \href{mailto:h@nnessm.it}{\nolinkurl{h@nnessm.it}} 
+	\hfill
+	% Website
+	\href{https://hasnep.netlify.app}{\nolinkurl{hasnep.netlify.app}}
+	% \href{https://ha.nnessm.it/}{\nolinkurl{ha.nnessm.it}}
+	\hfill
+	% GitHub
+	\href{https://github.com/hasnep/}{\nolinkurl{github.com/hasnep}}
+	\\
+	}
+\end{center}
+
+% Personal statement
+I am a Mathematics graduate with experience in both data science and software engineering.
+Since joining Amey Strategic Consulting, I have been an analyst in a variety of projects and developed tools for internal process improvement.
+
+\subsection*{Employment}
+
+\begin{itemize}
+	\item July 2019--Present: Strategic Consultant, Amey Strategic Consulting (London, UK)
+	\begin{itemize}
+		\item I am part of a team working with Amey Highways to deliver the \enquote{ADEPT Live Labs innovation programme} for Kent County Council, which aims to develop data-led approaches to the management of asset management and steward efficiency.
+		This involved building a dashboard integrating existing data to support analytics driven decision making within the county's teams and researching opportunities for innovation using sensors and IoT devices.
+		\item I was a maintainer of the team's financial platform --- an R Shiny dashboard that allows team members and project managers to monitor expenditure, register risks, and keep track of invoices, while synchronising the data with a relational database.
+		\item Using R, I collaborated with Amey's HR department to complete an analysis of the gender pay gap across all departments in wider Amey.
+		The visualisations, statistics and forecasts were used to guide the company's decision making with regards to gender equality.
+		I then created a Python package to automatically perform these forecasts and trained an HR analyst with no prior Python knowledge to produce original analyses.
+		\item I completed a focused two week analytics sprint on the maintenance contract fulfilled by Amey Highways for Staffordshire County Council.
+		I collected user-stories and datasets from both the Amey and Staffordshire teams about the processes used and delivered a presentation of data visualisations, highlighting key successes and opportunities.
+		\item I oversaw the deployment of a Python tool to automate sending email reminders for Amey TPT.
+		This was a task that previously took multiple days each month but can now be performed in a few minutes, saving significant resource time.
+	\end{itemize}
+
+	\item June 2018--September 2018: Data Science Services Intern, Asia Analytics Taiwan (Taipei, Taiwan)
+	\begin{itemize}
+		\item In my internship, I used Python and R to write extensions for data cleansing and data mining in SPSS and SPSS Modeller.
+		I quickly added features when they were requested, made an intuitive but powerful interface for the extensions and documented the process used.
+		I also created an in-depth tutorial on programming using SPSS Syntax from scratch, demonstrating my ability to learn and clearly communicate concepts to an audience who were unfamiliar with the topic.
+	\end{itemize}
+\end{itemize}
+
+\subsection*{Education}
+
+\begin{itemize} 
+	\item September 2015--June 2019: MMath Mathematics --- 2:1 (University of Exeter, UK)
+
+	My dissertation involved combining modern neural networks using Keras with more traditional regression and Gaussian processes models with the aim of providing more human-understandable insights to machine learning algorithms.
+	I successfully modelled a neural network using multiple techniques in a way that simplified the complex internal system to well-understood statistical processes.
+	Other modules included machine learning and spatial-temporal statistics.
+
+	\item 2009--2015: Felpham Community College (Felpham, UK)
+
+	My A-levels were Mathematics (A), Further Mathematics (B), Physics (B), AS Spanish (B) and STEP Mathematics (Level 3).
+\end{itemize}
+
+\subsection*{Skills}
+
+\begin{itemize}
+	\item I am fluent in Python and R for data analysis, and particularly enjoy data visualisation with the \texttt{ggplot2} and \texttt{shiny} packages.
+	I am learning the programming languages \enquote{Julia} and \enquote{Typescript} as a hobby, some of my projects can be found on my GitHub profile (\href{https://github.com/hasnep/}{\nolinkurl{github.com/hasnep}}).
+
+	\item In school, I was a lead animator and team coordinator in the UK Schools Computer Animation Competition.
+	Our team achieved first in our category twice, and received the \enquote{EA Recognition Award] in our third year.
+	This experience improved my time management and strengthened my ability to lead a team in bringing a project to completion.
+
+	\item Foreign languages include Afrikaans (native), Spanish (intermediate) and Mandarin (beginner).
+\end{itemize}
+
+\noindent References are available on request.
+
+\end{document}
