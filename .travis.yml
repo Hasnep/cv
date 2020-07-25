@@ -1,7 +1,16 @@
 sudo: required
 language: generic
 services: docker
-
 script:
-  # We use the docker image from https://hub.docker.com/r/dxjoke/tectonic-docker/
-  - docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker /bin/sh -c "tectonic cv-johannes-smit.tex.tex"
+  - docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker
+    /bin/sh -c "tectonic cv-johannes-smit.tex.tex"
+deploy:
+  provider: releases
+  api_key:
+    secure: uZ+1OWFv07lM8Axpm9eQnUkTrwC6nsRWTL5Jyumfv8SpR/JWdALGgi1kZMj59NwHujSKcG+6UDihqfN/qTs9K3ONV0mfI42x4h3YttI/kyVQZ+Wq/JiumGg2sV3gvnVcm+LNAu7ujlo6vHF9W639illzcg53Nb0bpckEoVyp6svX9cxncafDIPjMSHdgr42Bnn4NSGK/xZ8B623AvJVL5OvuCwYKUikiUwLxfafV3dwO3oX6xDGZQ+GVnuY136N+Bn5N8bTQyCp4yK7n7+hvqYE9zqjdJpPOEZXEMyLPIz5l8Zz+ygBBB97mTNYD3rWHh/xpB/W+d3DMfLVya9+m8Ql804vpLhr7ue3DFbwVEdaCiM93qDXNVlGb/CSPj5Bk0tR+jZvAPVs/AqAByMIG1CfoR1gtT5xujQMY9wHI46R7DVsbpYQ2SmtGhvHY7PTqZEfEPn4lweSTT3uQPKjavhoyY+5/r+sxvtsJPopyRR6TDyxC/czxLPUwE5TO/Wdfjj51amnMqSA44KXzfFI9fLadEeC1eEYHReSKuidgvXc5cFKOXC8k+yR6/rm5HjV6ssOGw2EZNxh9yroh2XWEBZ7OSMSyyvwJVgBr50T+FsmqvPHnirmscp1Gki+ujcw+d+F01Hm/00jGkhmiLbxugrSu4ttoJkRWBL8es0h04ZE=
+  file:
+    - ./cv-johannes-smit.pdf
+  skip_cleanup: true
+  on:
+    tags: true
+    branch: master
