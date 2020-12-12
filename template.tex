@@ -1,0 +1,42 @@
+\documentclass[11pt, a4paper]{article}
+
+% \usepackage{fontspec}
+% % Computer Modern from: https://cm-unicode.sourceforge.io/download.html
+% \setmainfont{CMU Concrete}
+
+% Margins
+\usepackage[margin=3cm]{geometry}
+
+% UK English
+\usepackage[UKenglish]{babel}
+
+% Bullet point spacing
+\setlength{\itemsep}{0.1em}
+
+% Remove page numbers
+\pagenumbering{gobble}
+
+% Reduce hyphenation
+\pretolerance=5000
+\tolerance=9000
+\emergencystretch=10pt
+
+% Line spacing
+\usepackage{setspace}
+\setstretch{1}
+
+% URLs
+\usepackage[hidelinks]{hyperref}
+
+% Quotation marks
+\usepackage{csquotes}
+
+% Pandoc command
+\providecommand{\tightlist}{\setlength{\itemsep}{1pt}\setlength{\parskip}{1pt}}
+
+% Remove section numbering
+\setcounter{secnumdepth}{-\maxdimen}
+
+\begin{document}
+$body$
+\end{document}
