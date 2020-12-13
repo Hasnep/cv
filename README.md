@@ -4,4 +4,5 @@ My super simple CV written in markdown.
 
 ## Building
 
-Building with the `Makefile` requires [`pandoc`](https://pandoc.org/) and [`tectonic`](https://tectonic-typesetting.github.io/).
+Building with the `Makefile` requires [`GNU Make`](https://www.gnu.org/software/make/), [`pandoc`](https://pandoc.org/) and [`tectonic`](https://tectonic-typesetting.github.io/).
+Just run `make build` to build the documet to both PDF and HTML.
