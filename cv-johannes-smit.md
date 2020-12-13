@@ -10,7 +10,6 @@ Since joining Amey Strategic Consulting, I have been an analyst in a variety of 
 ### Employment
 
 - July 2019 to Present: Strategic Consultant, Amey Strategic Consulting (London, UK)
-
   - I am part of a team working with Amey Highways to deliver the _ADEPT Live Labs innovation programme_ for Kent County Council, which aims to develop data-led approaches to managing the county's assets.
     To deliver a web-platform for data-driven decision making, I helped build a React dashboard using Plotly and Mapbox to clearly visualise the large amount of data.
     I identified inefficiency in a stakeholder's planning due to uncertainty about future work, so I developed a predictive machine learning model to enable data-driven planning.
@@ -23,7 +22,6 @@ Since joining Amey Strategic Consulting, I have been an analyst in a variety of 
   - I am a maintainer of the team's financial platform, an R Shiny dashboard that allows team members and project managers to monitor expenditure, register risks and keep track of invoices while synchronising the data with a relational database.
   - I oversaw the deployment of a Python tool to automate sending email reminders for Amey TPT.
     This was a task that previously took multiple days each month but can now be performed in a few minutes, saving significant resource time.
-
 - June 2018 to September 2018: Data Science Services Intern, Asia Analytics Taiwan (Taipei, Taiwan)
   - In my internship, I used Python and R to write extensions for data cleansing and data mining in SPSS and SPSS Modeller.
     I quickly added features when they were requested, made an intuitive but powerful interface for the extensions and documented the process used.
