@@ -1,4 +1,4 @@
-# Johannes Smit
+## Johannes Smit
 
 - Email: [`h@nnes.dev`](mailto:h@nnes.dev)
 - Website: [`ha.nnes.dev`](https://ha.nnes.dev/)
@@ -7,7 +7,7 @@
 I am a Mathematics graduate with experience in both data science and software engineering.
 Since joining Amey Strategic Consulting, I have been an analyst in a variety of projects and developed tools for internal process improvement.
 
-## Employment
+### Employment
 
 - July 2019 to Present: Strategic Consultant, Amey Strategic Consulting (London, UK)
 
@@ -29,7 +29,7 @@ Since joining Amey Strategic Consulting, I have been an analyst in a variety of 
     I quickly added features when they were requested, made an intuitive but powerful interface for the extensions and documented the process used.
     I also created an in-depth tutorial on programming using SPSS Syntax from scratch, demonstrating my ability to learn and clearly communicate concepts to an audience who were unfamiliar with the topic.
 
-## Education
+### Education
 
 - 2015 to 2019: MMath Mathematics, 2:1 (University of Exeter, UK)
   - My Masters' dissertation involved combining modern neural networks using Keras with more traditional regression and Gaussian processes models with the aim of providing more human-understandable insights to machine learning algorithms.
@@ -38,12 +38,12 @@ Since joining Amey Strategic Consulting, I have been an analyst in a variety of 
 - 2009 to 2015: Felpham Community College (Felpham, UK)
   - My A-levels were Mathematics (A), Further Mathematics (B), Physics (B), AS Spanish (B) and STEP Mathematics (Level 3).
 
-## Certifications
+### Certifications
 
 - September 2020: Microsoft Certified: Azure Data Scientist Associate
 - May 2020: Microsoft Certified: Azure Fundamentals
 
-## Skills
+### Skills
 
 - As well as being fluent in Python and R for data analysis, I develop personal open-source projects in the languages Julia and Typescript as a hobby.
   For example, I created `DataSkimmer.jl`, a Julia package to quickly summarise tabular data in the terminal.
