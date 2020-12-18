@@ -17,8 +17,8 @@ Since joining Amey Strategic Consulting, I have been an analyst in a variety of 
     Throughout the project I have communicated intuitively as I continually present my findings to clients and internal stakeholders in an easily digestible way.
     Recently, I worked with a stakeholder to identify an inefficiency in their work allocation and am developing a predictive machine learning model to enable data-driven planning.
     My personal highlight was designing and building a proof of concept application to manage and collect data from a network of IoT sensors which will allow for real-time monitoring of drainage assets.
-  - I collaborated with Amey's HR department to complete an analysis of the gender pay gap across all departments in wider Amey using R.
-    The visualisations, statistics and forecasts I produced were used to guide the company's decision making with regards to gender equality in pay rates.
+  - I collaborated with Amey's HR department to complete an analysis of the gender pay gap of thousands of employees across all departments in wider Amey.
+    The visualisations, statistics and forecasts I produced using R guided the company's decision making with regards to gender equality in pay rates.
     I then created a Python package to automatically perform these forecasts and trained an HR analyst with no prior Python knowledge to produce original analyses.
   - I completed a focused two week analytics sprint on the maintenance contract fulfilled by Amey Highways for Staffordshire County Council.
     I collected user-stories and datasets from both the Amey and Staffordshire teams about the processes used and delivered a presentation of data visualisations, highlighting key successes and opportunities.
