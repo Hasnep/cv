@@ -10,9 +10,12 @@ Since joining Amey Strategic Consulting, I have been an analyst in a variety of 
 ### Employment
 
 - July 2019 to Present: Strategic Consultant, Amey Strategic Consulting (London, UK)
-  - I am part of a team working with Amey Highways to deliver the _ADEPT Live Labs innovation programme_ for Kent County Council, which aims to develop data-led approaches to managing the county's assets.
-    To deliver a web-platform for data-driven decision making, I helped build a React dashboard using Plotly and Mapbox to clearly visualise the large amount of data.
-    I identified inefficiency in a stakeholder's planning due to uncertainty about future work, so I developed a predictive machine learning model to enable data-driven planning.
+  - I am part of a team working with a local government to create a web-dashboard that incorporates many data-sources.
+    I created the data ingestion pipeline to load data from IoT devices, online APIs and daily reports into a central database.
+    I then built the graphs and maps which gave the client insight into their efficiency and automated some previously manual processes.
+    I also administrate the platform's deployment on AWS using Docker and recently set up the CI pipeline, allowing the entire team to use our time more effectively.
+    Throughout the project I have communicated intuitively as I continually present my findings to clients and internal stakeholders in an easily digestible way.
+    Recently, I worked with a stakeholder to identify an inefficiency in their work allocation and am developing a predictive machine learning model to enable data-driven planning.
     My personal highlight was designing and building a proof of concept application to manage and collect data from a network of IoT sensors which will allow for real-time monitoring of drainage assets.
   - I collaborated with Amey's HR department to complete an analysis of the gender pay gap across all departments in wider Amey using R.
     The visualisations, statistics and forecasts I produced were used to guide the company's decision making with regards to gender equality in pay rates.
