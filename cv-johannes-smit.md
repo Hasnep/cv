@@ -35,7 +35,7 @@ Since joining Amey Strategic Consulting, I have been an analyst in a variety of 
 - 2015 to 2019: MMath Mathematics, 2:1 (University of Exeter, UK)
   - My Masters' dissertation involved combining modern neural networks using Keras with more traditional regression and Gaussian processes models with the aim of providing more human-understandable insights to machine learning algorithms.
     I successfully modelled a neural network using multiple techniques in a way that simplified the complex internal system to well-understood statistical processes.
-    Other modules included machine learning and spatio-temporal statistics.
+  - Other modules included statistical modelling using R, machine learning using Python and spatio-temporal statistics.
 - 2009 to 2015: Felpham Community College (Felpham, UK)
   - My A-levels were Mathematics (A), Further Mathematics (B), Physics (B), AS Spanish (B) and STEP Mathematics (Level 3).
 
