@@ -9,7 +9,7 @@ Since joining Amey Strategic Consulting, I have been an analyst in a variety of 
 
 ### Employment
 
-- July 2019 to Present: Strategic Consultant, Amey Strategic Consulting (London, UK)
+- July 2019 to Present: Strategic Consultant (Data Science and Data Engineering), Amey Strategic Consulting (London, UK)
   - I am part of a team working with a local government to create a web-dashboard that incorporates many data-sources.
     I created the data ingestion pipeline to load data from IoT devices, online APIs and daily reports into a central database.
     I then built the graphs and maps which gave the client insight into their efficiency and automated some previously manual processes.
