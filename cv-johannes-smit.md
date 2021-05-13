@@ -10,10 +10,10 @@ I have produced insightful reports as a data analyst in a variety of projects an
 ### Employment
 
 - July 2019 to Present: Strategic Consultant (Data Science and Data Engineering), Amey Strategic Consulting (London, UK)
-  - I am part of a team working with a local government to create a web-dashboard that incorporates many data-sources.
-    I created the data ingestion pipeline to load data from IoT devices, online APIs and daily reports into a central database.
-    I then built the graphs and maps which gave the client insight into their efficiency and automated some previously manual processes.
-    I also administrate the platform's deployment on AWS using Docker and recently set up the CI pipeline, allowing the entire team to use our time more effectively.
+  - I am the lead data engineer of a project working with a local government to create a web-dashboard that incorporates many data-sources.
+    I administrate the platform's deployment on AWS with Docker and Kubernetes.
+    I created the ETL data pipeline to load data from IoT devices, online APIs and daily reports into a central database.
+    I then built the graphs and maps using React.js which gave the client new interactive insights about the data and automated some previously manual processes.
     Throughout the project I have communicated intuitively as I continually present my findings to clients and internal stakeholders in an easily digestible way.
     Recently, I worked with a stakeholder to identify an inefficiency in their work allocation and am developing a predictive machine learning model to enable data-driven planning.
     My personal highlight was designing and building a proof of concept application to manage and collect data from a network of IoT sensors which will allow for real-time monitoring of drainage assets.
