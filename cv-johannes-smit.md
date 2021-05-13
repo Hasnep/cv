@@ -4,8 +4,8 @@
 - Website: [`ha.nnes.dev`](https://ha.nnes.dev/)
 - GitHub: [`github.com/hasnep`](https://github.com/hasnep/)
 
-I am a Mathematics graduate with experience in both data science and software engineering.
-Since joining Amey Strategic Consulting, I have been an analyst in a variety of projects and developed tools for internal process improvement.
+I am a data engineer with a background in statistics and data science.
+I have produced insightful reports as a data analyst in a variety of projects and am now the lead data engineer for an interactive data-dashboard.
 
 ### Employment
 
