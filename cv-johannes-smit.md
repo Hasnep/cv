@@ -23,12 +23,10 @@ Since joining Amey Strategic Consulting, I have been an analyst in a variety of 
   - I completed a focused two week analytics sprint on the maintenance contract fulfilled by Amey Highways for Staffordshire County Council.
     I collected user-stories and datasets from both the Amey and Staffordshire teams about the processes used and delivered a presentation of data visualisations, highlighting key successes and opportunities.
   - I am a maintainer of the team's financial platform, an R Shiny dashboard that allows team members and project managers to monitor expenditure, register risks and keep track of invoices while synchronising the data with a relational database.
-  - I oversaw the deployment of a Python tool to automate sending email reminders for Amey TPT.
-    This was a task that previously took multiple days each month but can now be performed in a few minutes, saving significant resource time.
 - June 2018 to September 2018: Data Science Services Intern, Asia Analytics Taiwan (Taipei, Taiwan)
-  - In my internship, I used Python and R to write extensions for data cleansing and data mining in SPSS and SPSS Modeller.
-    I quickly added features when they were requested, made an intuitive but powerful interface for the extensions and documented the process used.
-    I also created an in-depth tutorial on programming using SPSS Syntax from scratch, demonstrating my ability to learn and clearly communicate concepts to an audience who were unfamiliar with the topic.
+  - In my internship I created extensions for data cleansing and data mining in SPSS and SPSS Modeller using Python and R.
+    I added features quickly when requested, made an intuitive but powerful interface for the extensions and documented the process used.
+    I also wrote an in-depth tutorial on programming using SPSS Syntax from scratch, demonstrating my ability to learn and clearly communicate concepts to an audience who were unfamiliar with the topic.
 
 ### Education
 
