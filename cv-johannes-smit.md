@@ -47,9 +47,6 @@ Since joining Amey Strategic Consulting, I have been an analyst in a variety of 
 - As well as being fluent in Python, R and SQL for data analysis, I develop personal open-source projects in the languages Julia and Typescript as a hobby.
   For example, I created `DataSkimmer.jl`, a Julia package to quickly summarise tabular data in the terminal.
   All of my personal projects can be found on my website ([`ha.nnes.dev`](https://ha.nnes.dev/)).
-- In school, I was a lead animator and team coordinator in the _UK Schools Computer Animation Competition_.
-  Our team achieved first place in our category twice, and received an additional award in recognition of our talent.
-  This experience improved my time management and strengthened my ability to lead a team in bringing a project to completion.
 - Languages: English (native), Afrikaans (fluent), Spanish (intermediate) and Mandarin (beginner).
 
 References are available on request.
