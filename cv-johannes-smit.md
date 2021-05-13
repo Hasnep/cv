@@ -22,6 +22,8 @@ I have produced insightful reports as a data analyst in a variety of projects an
     I then created a Python package to automatically perform these forecasts and trained an HR analyst with no prior Python knowledge to produce original analyses.
   - I completed a focused two week analytics sprint on the contract fulfilled by Amey for a local council.
     I collected user-stories and datasets from both the Amey and client teams about the processes used and delivered a presentation of data visualisations, highlighting key successes and opportunities.
+  - I was selected to complete delivery of an interactive machine learning dashboard for Highways England.
+    - I had to quickly learn the backend architecture using Flask and interface with the Azure ML SDK to put computer vision models into production.
   - I am a maintainer of the team's financial platform, an R Shiny dashboard that allows team members and project managers to monitor expenditure, register risks and keep track of invoices while synchronising the data with a relational database.
 - June 2018 to September 2018: Data Science Services Intern, Asia Analytics Taiwan (Taipei, Taiwan)
   - In my internship I created extensions for data cleansing and data mining in SPSS and SPSS Modeller using Python and R.
