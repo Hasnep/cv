@@ -15,25 +15,21 @@ I have produced insightful reports as a data analyst in a variety of projects an
 ### Employment
 
 - July 2019 to Present: Strategic Consultant (Data Science and Data Engineering), Amey Strategic Consulting (London, UK)
-  - I am the lead data engineer of a project working with a local government to create a web-dashboard that incorporates many data-sources.
-    I administrate the platform's deployment on AWS with Docker and Kubernetes.
-    I created the ETL data pipeline to load data from IoT devices, online APIs and daily reports into a central database.
-    I then built the graphs and maps using React.js which gave the client new interactive insights about the data and automated some previously manual processes.
-    Throughout the project I have communicated intuitively as I continually present my findings to clients and internal stakeholders in an easily digestible way.
-    Recently, I worked with a stakeholder to identify an inefficiency in their work allocation and am developing a predictive machine learning model to enable data-driven planning.
-    My personal highlight was designing and building a proof of concept application to manage and collect data from a network of IoT sensors which will allow for real-time monitoring of drainage assets.
-  - I collaborated with Amey's HR department to complete an analysis of the gender pay gap of thousands of employees across all departments in the company.
-    The visualisations, statistics and forecasts I produced using R guided the company's decision making with regards to gender equality in pay rates.
-    I then created a Python package to automatically perform these forecasts and trained an HR analyst with no prior Python knowledge to produce original analyses.
-  - I completed a focused two week analytics sprint on the contract fulfilled by Amey for a local council.
-    I collected user-stories and datasets from both the Amey and client teams about the processes used and delivered a presentation of data visualisations, highlighting key successes and opportunities.
-  - I was selected to complete delivery of an interactive machine learning dashboard for Highways England.
-    I had to quickly learn the backend architecture using Flask and interface with the Azure ML SDK to put computer vision models into production.
-  - I am a maintainer of the team's financial platform, an R Shiny dashboard that allows team members and project managers to monitor expenditure, register risks and keep track of invoices while synchronising the data with a relational database.
+  - Lead data engineer of a data dashboard creating insights into operations and tracking KPIs for a local government. (AWS, Kubernetes, Flask)
+    - Created the ETL data pipeline in Python to load data from IoT devices, online APIs and daily reports into a central database. (Airflow, Postgres)
+    - Built the visualisations which gave the client new interactive insights about their work and automated manual processes. (Javascript, React)
+    - Designed and built a proof-of-concept application to manage and collect data from a network of IoT sensors to monitor infrastructure assets in real-time.
+    - Identified an inefficiency in the client's work allocation and developed a predictive machine learning model to enable data-driven planning. (FB Prophet)
+  - Collaborated with the HR department to analyse the gender pay gap of thousands of employees across all departments in the company.
+    - The visualisations, statistics and forecasts I produced using R guided the company when choosing to become a living-wage employer.
+    - Developed a Python package to automatically perform these forecasts and trained an HR analyst with no prior Python knowledge to use the package to produce new data reports.
+  - Completed a focused two week analytics sprint evaluating the output of a contract Amey has with a local council.
+    - Collected user-stories and datasets from the client's team to understand their processes and goals.
+    - Delivered an engaging presentation with insightful data visualisations highlighting key successes and opportunities for improvement.
+  - Joined a team during "crunch-time" to successfully complete delivery of an interactive computer-vision dashboard to review dashcam footage, removing the need for a human co-driver. (Azure ML SDK)
 - June 2018 to September 2018: Data Science Services Intern, Asia Analytics Taiwan (Taipei, Taiwan)
-  - In my internship I created extensions for data cleansing and data mining in SPSS and SPSS Modeller using Python and R.
-    I added features quickly when requested, made an intuitive but powerful interface for the extensions and documented the process used.
-    I also wrote an in-depth tutorial on programming using SPSS Syntax from scratch, demonstrating my ability to learn and clearly communicate concepts to an audience who were unfamiliar with the topic.
+  - Created extensions for data cleansing and data mining in SPSS and SPSS Modeller using Python and R.
+  - Wrote an in-depth tutorial on programming using SPSS Syntax from scratch, allowing new users to understand the important features of the language quickly and start analysing data.
 
 ### Education
 
@@ -41,8 +37,6 @@ I have produced insightful reports as a data analyst in a variety of projects an
   - My Masters' dissertation involved combining modern neural networks using Keras with more traditional regression and Gaussian processes models with the aim of providing more human-understandable insights to machine learning algorithms.
     I successfully modelled a neural network using multiple techniques in a way that simplified the complex internal system to well-understood statistical processes.
   - Other modules included statistical modelling using R, machine learning using Python and spatio-temporal statistics.
-- 2009 to 2015: Felpham Community College (Felpham, UK)
-  - My A-levels were Mathematics (A), Further Mathematics (B), Physics (B), AS Spanish (B) and STEP Mathematics (Level 3).
 
 ### Certifications
 
@@ -52,8 +46,7 @@ I have produced insightful reports as a data analyst in a variety of projects an
 ### Skills
 
 - As well as being fluent in Python, R and SQL for data analysis, I develop personal open-source projects in the languages Julia and Typescript as a hobby.
-  For example, I created `DataSkimmer.jl`, a Julia package to quickly summarise tabular data in the terminal.
-  All of my personal projects can be found on my website ([`ha.nnes.dev`](https://ha.nnes.dev/)).
+  My portfolio of personal projects can be found on my website ([`ha.nnes.dev`](https://ha.nnes.dev/)).
 - Languages: English (native), Afrikaans (fluent), Spanish (intermediate) and Mandarin (beginner).
 
 References are available on request.
