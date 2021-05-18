@@ -1,8 +1,13 @@
-## Johannes Smit
-
-- Email: [`h@nnes.dev`](mailto:h@nnes.dev)
-- Website: [`ha.nnes.dev`](https://ha.nnes.dev/)
-- GitHub: [`github.com/hasnep`](https://github.com/hasnep/)
+---
+title: Johannes Smit
+contact:
+  - display: h@nnes.dev
+    link: mailto:h@nnes.dev
+  - display: ha.nnes.dev
+    link: https://ha.nnes.dev/
+  - display: github.com/hasnep
+    link: https://github.com/hasnep/
+---
 
 I am a data engineer with a background in statistics and data science.
 I have produced insightful reports as a data analyst in a variety of projects and am now the lead data engineer for an interactive data-dashboard.

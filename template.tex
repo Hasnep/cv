@@ -37,6 +37,22 @@
 % Remove section numbering
 \setcounter{secnumdepth}{-\maxdimen}
 
+% Align sections to the centre
+\usepackage{sectsty}
+\sectionfont{\centering}
+
+% Title
+\title{$title$}
+
 \begin{document}
+\section*{$title$}
+
+
+$for(contact)$
+\hfill{}\textbullet\enspace \href{${ contact.link }}{\texttt{${ contact.display }}}
+$endfor$
+\hfill{}
+\\
+
 $body$
 \end{document}
