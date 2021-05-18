@@ -14,7 +14,7 @@ I have produced insightful reports as a data analyst in a variety of projects an
 
 ### Employment
 
-- July 2019 to Present: Strategic Consultant (Data Science and Data Engineering), Amey Strategic Consulting (London, UK)
+- July 2019 to Present: Strategic Consultant, Amey Strategic Consulting (London, UK)
   - Lead data engineer of a data dashboard creating insights into operations and tracking KPIs for a local government. (AWS, Kubernetes, Flask)
     - Created the ETL data pipeline in Python to load data from IoT devices, online APIs and daily reports into a central database. (Airflow, Postgres)
     - Built the visualisations which gave the client new interactive insights about their work and automated manual processes. (Javascript, React)
