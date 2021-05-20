@@ -48,5 +48,3 @@ I have produced insightful reports as a data analyst in a variety of projects an
 - As well as being fluent in Python, R and SQL for data analysis, I develop personal open-source projects in the languages Julia and Typescript as a hobby.
   My portfolio of personal projects can be found on my website ([`ha.nnes.dev`](https://ha.nnes.dev/)).
 - Languages: English (native), Afrikaans (fluent), Spanish (intermediate) and Mandarin (beginner).
-
-References are available on request.
