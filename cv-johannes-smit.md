@@ -24,7 +24,7 @@ I have produced insightful reports as a data analyst in a variety of projects an
   - Collaborated with the HR department to analyse the gender pay gap of thousands of employees across all departments in the company.
     - The visualisations, statistics and forecasts I produced using R guided the company when choosing to become a living-wage employer.
     - Developed a Python package to automatically perform these forecasts and trained an HR analyst with no prior Python knowledge to use the package to produce new data reports.
-  - Completed a focused two week analytics sprint evaluating the output of a contract Amey has with a local council.
+  - Completed a focused two-week analytics sprint evaluating the output of a contract Amey has with a local council.
     - Collected user-stories and datasets from the client's team to understand their processes and goals.
     - Delivered an engaging presentation with insightful data visualisations highlighting key successes and opportunities for improvement.
   - Joined a team during "crunch-time" to successfully complete delivery of an interactive computer-vision dashboard to review dashcam footage, removing the need for a human co-driver. (Azure ML SDK)
