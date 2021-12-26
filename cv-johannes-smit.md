@@ -15,10 +15,11 @@ I have produced insightful reports as a data analyst in a variety of projects an
 ### Employment
 
 - July 2019 to Present: Strategic Consultant, Amey Strategic Consulting (London, UK)
-  - Lead data engineer of a GIS (Geographic Information System) dashboard creating insights into operations and tracking KPIs for a local government. (AWS, Kubernetes, Flask)
-    - Created the ETL data pipeline in Python to load data from IoT devices, online APIs and daily reports into a central database. (Airflow, Postgres)
-    - Built the visualisations which gave the client new interactive insights about their work and automated manual processes. (Javascript, React)
-    - Designed and built a proof-of-concept application to manage and collect data from a network of IoT sensors to monitor infrastructure assets in real-time.
+  - Lead data engineer of a GIS (Geographic Information System) dashboard creating insights into operations and tracking KPIs for a local county council. (AWS, Kubernetes, Airflow)
+    - Created ETL pipelines to load data from IoT devices, online APIs and daily reports into a central database. (Python, Airflow, Postgres)
+    - Maintained the production platform by monitoring alerts, quickly fixing bugs and pre-emptively hardening code by implementing CI checks. (Azure Pipelines)
+    - Built visualisations which gave the client new interactive insights about their work and automated previously laborious processes. (React.js, Plotly.js, Flask)
+    - Designed and built a proof-of-concept application to manage and collect data from a network of custom IoT sensors to monitor infrastructure assets in real-time.
     - Identified an inefficiency in the client's work allocation and developed a predictive machine learning model to enable data-driven planning. (FB Prophet)
   - Collaborated with the HR department to analyse the gender pay gap of thousands of employees across all departments in the company.
     - The visualisations, statistics and forecasts I produced using R guided the company when choosing to become a living-wage employer.
