@@ -9,8 +9,7 @@ contact:
     link: https://github.com/hasnep/
 ---
 
-Data science consultant with a background in statistics and mathematics.
-I have produced insightful reports as a data analyst in a variety of projects and now the lead data engineer for an interactive data-dashboard.
+Experienced data engineer with a background in statistics and mathematics.
 
 ### Employment
 
