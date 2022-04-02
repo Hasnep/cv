@@ -23,8 +23,7 @@ Experienced data engineer with a background in statistics and mathematics.
     - Maintained the production platform by monitoring alerts, quickly fixing bugs and pre-emptively hardening code by implementing CI checks. (Azure Pipelines)
     - Identified an inefficiency in the client's work allocation and developed a predictive machine learning model to enable data-driven planning. (FB Prophet)
   - Collaborated with the HR department to analyse the gender pay gap of thousands of employees across all departments in the company.
-    - The visualisations, statistics and forecasts I produced using R guided the company when choosing to become a living-wage employer.
-    - Developed a Python package to automatically perform these forecasts and trained an HR analyst with no prior Python knowledge to use the package to produce new data reports.
+    - The visualisations, statistics and forecasts I produced guided the company when becoming a living-wage employer.
   - Completed a focused two-week analytics sprint evaluating the output of a contract with a local council.
     - Collected user-stories and datasets from the client's team to understand their processes and goals.
     - Delivered an engaging presentation with insightful data visualisations highlighting key successes and opportunities for improvement.
