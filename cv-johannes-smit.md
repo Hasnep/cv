@@ -21,7 +21,6 @@ Experienced data engineer with a background in statistics and mathematics.
   - Lead data engineer of a GIS (Geographic Information System) dashboard creating insights into operations and tracking KPIs for a local county council. (AWS, Kubernetes, Airflow)
     - Created ETL pipelines to load data from IoT devices, online APIs and daily reports into a central database. (Python, Airflow, Postgres)
     - Maintained the production platform by monitoring alerts, quickly fixing bugs and pre-emptively hardening code by implementing CI checks. (Azure Pipelines)
-    - Designed and built a proof-of-concept application to manage and collect data from a network of custom IoT sensors to monitor infrastructure assets in real-time.
     - Identified an inefficiency in the client's work allocation and developed a predictive machine learning model to enable data-driven planning. (FB Prophet)
   - Collaborated with the HR department to analyse the gender pay gap of thousands of employees across all departments in the company.
     - The visualisations, statistics and forecasts I produced using R guided the company when choosing to become a living-wage employer.
