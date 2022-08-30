@@ -15,6 +15,7 @@ Experienced data engineer with a background in statistics and mathematics.
 
 - October 2021 to Present: Data Engineer, Sainsbury's (London, UK)
   - Maintain and develop large ELT pipelines for structured and semi-structured data from many data sources including providing out-of-hours support. (AWS S3, Airflow, Snowflake)
+  - Developed a tool to create a new, simpler way for teams to write and schedule SQL transforms and link tasks across teams. (DBT, GitHub Actions, Python, Airflow)
   - Designed and built a robust application to automate managing AWS database migration service tasks. (Python, boto3)
   - Identified and fixed devops issues across teams and implemented solutions to prevent future issues through CI and improving team culture. (GitHub Actions, Circle CI)
 - July 2019 to October 2021: Strategic Consultant (Data Engineering), Amey Strategic Consulting (London, UK)
