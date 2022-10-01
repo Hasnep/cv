@@ -9,7 +9,7 @@ contact:
     link: https://github.com/hasnep/
 ---
 
-Experienced data engineer with a background in statistics and mathematics.
+Experienced data engineer with a background in data science and mathematics.
 
 ### Employment
 
