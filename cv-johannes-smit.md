@@ -36,11 +36,6 @@ Experienced data engineer with a background in statistics and mathematics.
   - Dissertation used regression and Gaussian processes to provide human-understandable insights into to machine learning algorithms.
     Successfully modelled a neural network using multiple techniques in a way that simplified the complex internal system to well-understood statistical processes. (R, Keras)
 
-### Certifications
-
-- September 2020: Microsoft Certified: Azure Data Scientist Associate
-- May 2020: Microsoft Certified: Azure Fundamentals
-
 ### Skills
 
 - As well as being fluent in Python, SQL and Typescript, I develop open-source projects in Julia and Rust as a hobby.
