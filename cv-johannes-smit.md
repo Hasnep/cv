@@ -14,10 +14,10 @@ Experienced data engineer with a background in data science and mathematics.
 ### Employment
 
 - October 2021 to November 2022: Data Engineer, Sainsbury's (London, UK)
-  - Maintained and developed large ELT pipelines for structured and semi-structured data from many data sources including providing out-of-hours support. (AWS S3, Airflow, Snowflake)
-  - Was selected to be part of a team developing a tool to create a new, simpler way for teams to write and schedule SQL transforms, including managing inter-team dependencies. (DBT, GitHub Actions, Python, Airflow)
-  - Designed and built a robust application to automate managing AWS database migration service tasks. (Python, boto3)
-  - Identified and fixed devops issues across teams and implemented solutions to prevent future issues through CI and improving team culture. (GitHub Actions, Circle CI)
+  - Maintained and developed ELT pipelines processing structured and semi-structured data from many data sources including providing out-of-hours support. (Airflow, Snowflake, AWS S3)
+  - Collaborated in a small team to develop the department's new standard tool for creating and scheduling SQL transforms. (DBT, GitHub Actions, Python, Airflow)
+  - Designed and built a robust application to download and process large (10GB) JSON files that couldn't fit in memory by streaming the data in chunks, reducing the memory requirements for our compute resources and preventing crashes. (Python, boto3)
+  - Identified and fixed devops issues across teams, implementing solutions to prevent future issues through CI and encouraging software engineering practices. (GitHub Actions, Circle CI)
 - July 2019 to October 2021: Strategic Consultant (Data Engineering), Amey Strategic Consulting (London, UK)
   - Lead data engineer of a GIS (Geographic Information System) dashboard creating insights into operations and tracking KPIs for a local county council. (AWS, Kubernetes, Airflow)
     - Created ETL pipelines to load data from IoT devices, online APIs and daily reports into a central database. (Python, Airflow, Postgres)
