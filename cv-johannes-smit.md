@@ -38,6 +38,6 @@ Experienced data engineer with a background in data science and mathematics.
 
 ### Skills
 
-- As well as being fluent in Python, SQL and Typescript, I develop open-source projects in Julia and Rust as a hobby.
+- As well as being fluent in Python, SQL and Terraform, I develop open-source projects in Julia, Rust and Typescript as a hobby.
   My portfolio of personal projects can be found on my website ([`ha.nnes.dev`](https://ha.nnes.dev/)).
 - Languages: English (native), Afrikaans (fluent), Spanish (intermediate) and Mandarin (beginner).
