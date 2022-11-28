@@ -16,7 +16,7 @@ Experienced data engineer in Taiwan with a background in data science and mathem
 - October 2021 to November 2022: Data Engineer, Sainsbury's (London, UK)
   - Maintained and developed ELT pipelines processing structured and semi-structured data from many data sources including providing out-of-hours support. (Airflow, Snowflake, AWS S3)
   - Collaborated in a small team to develop the department's new standard tool for creating and scheduling SQL transforms. (DBT, GitHub Actions, Python, Airflow)
-  - Designed and built a robust application to download and process large (10GB) JSON files that couldn't fit in memory by streaming the data in chunks, reducing the memory requirements for our compute resources and preventing crashes. (Python, boto3)
+  - Designed and built a robust application to download and process large (10GB) JSON files that couldn't fit in memory by streaming the data in chunks, reducing memory requirements and preventing crashes. (Python, boto3)
   - Identified and fixed devops issues across teams, implementing solutions to prevent future issues through CI and encouraging software engineering practices. (GitHub Actions, Circle CI)
 - July 2019 to October 2021: Strategic Consultant (Data Engineering), Amey Strategic Consulting (London, UK)
   - Lead data engineer of a GIS (Geographic Information System) dashboard creating insights into operations and tracking KPIs for a local county council. (AWS, Kubernetes, Airflow)
