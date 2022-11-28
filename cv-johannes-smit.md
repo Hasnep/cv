@@ -9,7 +9,7 @@ contact:
     link: https://github.com/hasnep/
 ---
 
-Experienced data engineer with a background in data science and mathematics.
+Experienced data engineer in Taiwan with a background in data science and mathematics.
 
 ### Employment
 
