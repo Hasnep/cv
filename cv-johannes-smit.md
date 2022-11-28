@@ -14,7 +14,7 @@ Experienced data engineer in Taiwan with a background in data science and mathem
 ### Employment
 
 - October 2021 to November 2022: Data Engineer, Sainsbury's (London, UK)
-  - Maintained and developed ELT pipelines processing structured and semi-structured data from many data sources including providing out-of-hours support. (Airflow, Snowflake, AWS S3)
+  - Maintained and developed ELT pipelines processing structured and semi-structured data from a variety of data sources including Kafka, SFTP and S3. (Airflow, Snowflake, AWS, S3)
   - Collaborated in a small team to develop the department's new standard tool for creating and scheduling SQL transforms. (DBT, GitHub Actions, Python, Airflow)
   - Designed and built a robust application to download and process large (10GB) JSON files that couldn't fit in memory by streaming the data in chunks, reducing memory requirements and preventing crashes. (Python, boto3)
   - Identified and fixed devops issues across teams, implementing solutions to prevent future issues through CI and encouraging software engineering practices. (GitHub Actions, Circle CI)
