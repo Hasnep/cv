@@ -1,4 +1,4 @@
-\documentclass[11pt, a4paper]{article}
+\documentclass[10pt, a4paper]{article}
 
 % \usepackage{fontspec}
 % % Computer Modern from: https://cm-unicode.sourceforge.io/download.html
@@ -10,13 +10,11 @@
 % \setCJKmainfont{Noto Serif CJK TC}
 
 % Margins
-\usepackage[hmargin=10mm, vmargin=10mm]{geometry}
+\usepackage[hmargin=2.5em, vmargin=1.5em]{geometry}
 
 % UK English
 \usepackage[UKenglish]{babel}
 
-% Bullet point spacing
-\setlength{\itemsep}{0.1em}
 
 % Remove page numbers
 \pagenumbering{gobble}
@@ -28,7 +26,7 @@
 
 % Line spacing
 \usepackage{setspace}
-\setstretch{1}
+\setstretch{1.1}
 
 % URLs
 \usepackage[hidelinks]{hyperref}
@@ -36,8 +34,11 @@
 % Quotation marks
 \usepackage{csquotes}
 
-% Pandoc command
-\providecommand{\tightlist}{\setlength{\itemsep}{1pt}\setlength{\parskip}{1pt}}
+% Allow setting the leftmargin for lists
+\usepackage{enumitem}
+
+% Pandoc command for tighter lists
+\providecommand{\tightlist}{\setlength{\itemsep}{0.5pt}\setlength{\parskip}{0.5pt}\setlist{leftmargin=1em}}
 
 % Remove section numbering
 \setcounter{secnumdepth}{-\maxdimen}
@@ -51,7 +52,6 @@
 
 \begin{document}
 \section*{$title$}
-
 
 $for(contact)$
 \hfill{}\textbullet\enspace \href{${ contact.link }}{\texttt{${ contact.display }}}
