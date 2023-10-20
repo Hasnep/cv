@@ -1,5 +1,6 @@
-*.pdf
-*.html
-*.tex
 *.docx
+*.html
+*.pdf
+*.tex
+*.txt
 !template.tex
