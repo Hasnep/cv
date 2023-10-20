@@ -1,5 +1,15 @@
 .PHONY: build
-build: cv-johannes-smit.pdf cv-johannes-smit.html cv-johannes-smit.docx
+build: cv-johannes-smit.txt cv-johannes-smit.pdf cv-johannes-smit.html cv-johannes-smit.docx
+
+cv-johannes-smit.txt: cv-johannes-smit.md
+	pandoc \
+	-f markdown \
+	--wrap none \
+	-o cv-johannes-smit.txt \
+	cv-johannes-smit.md
+	sed -i 's/        -   /        ‣ /g' cv-johannes-smit.txt
+	sed -i 's/    -   /    • /g' cv-johannes-smit.txt
+	sed -i 's/-   /• /g' cv-johannes-smit.txt
 
 cv-johannes-smit.pdf: cv-johannes-smit.md template.tex
 	pandoc \
