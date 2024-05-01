@@ -1,4 +1,4 @@
-\documentclass[10pt, a4paper]{article}
+\documentclass[9pt, a4paper]{extarticle}
 
 % \usepackage{fontspec}
 % % Computer Modern from: https://cm-unicode.sourceforge.io/download.html
@@ -26,7 +26,7 @@
 
 % Line spacing
 \usepackage{setspace}
-\setstretch{1.1}
+\setstretch{1.05}
 
 % URLs
 \usepackage[hidelinks]{hyperref}
@@ -43,15 +43,11 @@
 % Remove section numbering
 \setcounter{secnumdepth}{-\maxdimen}
 
-% Align sections to the centre
-\usepackage{sectsty}
-\sectionfont{\centering}
-
 % Title
 \title{$title$}
 
 \begin{document}
-\section*{$title$}
+\section*{\begin{center}$title$\end{center}}
 
 $for(contact)$
 \hfill{}\textbullet\enspace \href{${ contact.link }}{\texttt{${ contact.display }}}
