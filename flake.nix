@@ -24,9 +24,9 @@
           devShells.default = pkgs.mkShell {
             name = "cv";
             packages = [
-              pkgs.gnumake
-              pkgs.gnused
+              pkgs.just
               pkgs.pandoc
+              pkgs.sd
               pkgs.tectonic
             ];
           };
