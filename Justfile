@@ -1,32 +1,40 @@
+src_dir := justfile_directory() / "src"
+input_file := src_dir / "cv-johannes-smit.md"
+output_dir := justfile_directory() / "output"
+
 default: txt pdf html docx
 
 txt:
+    mkdir -p {{ output_dir / "txt" }}
     pandoc \
         --from=markdown \
         --to=plain \
         --wrap=none \
-        --output=cv-johannes-smit.txt \
-        cv-johannes-smit.md
-    sd '^-   ' '' cv-johannes-smit.txt
-    sd '^    -   ' '    • ' cv-johannes-smit.txt
-    sd '^        -   ' '        ‣ ' cv-johannes-smit.txt
+        --output={{ output_dir / "txt" / "cv-johannes-smit.txt" }} \
+        {{ input_file }}
+    sd '^-   ' '' {{ output_dir / "txt" / "cv-johannes-smit.txt" }}
+    sd '^    -   ' '    • ' {{ output_dir / "txt" / "cv-johannes-smit.txt" }}
+    sd '^        -   ' '        ‣ ' {{ output_dir / "txt" / "cv-johannes-smit.txt" }}
 
 pdf:
+    mkdir -p {{ output_dir / "pdf" }}
     pandoc \
         --from=markdown \
         --pdf-engine=tectonic \
-        --template=template.tex \
-        --output=cv-johannes-smit.pdf \
-        cv-johannes-smit.md
+        --template={{ src_dir / "template.tex" }} \
+        --output={{ output_dir / "pdf" / "cv-johannes-smit.pdf" }} \
+        {{ input_file }}
 
 html:
+    mkdir -p {{ output_dir / "html" }}
     pandoc \
         --from=markdown \
-        --output=cv-johannes-smit.html \
-        cv-johannes-smit.md
+        --output={{ output_dir / "html" / "cv-johannes-smit.html" }} \
+        {{ input_file }}
 
 docx:
+    mkdir -p {{ output_dir / "docx" }}
     pandoc \
         --from=markdown \
-        --output=cv-johannes-smit.docx \
-        cv-johannes-smit.md
+        --output={{ output_dir / "docx" / "cv-johannes-smit.docx" }} \
+        {{ input_file }}
