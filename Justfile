@@ -2,7 +2,7 @@ src_dir := justfile_directory() / "src"
 input_file := src_dir / "cv-johannes-smit.md"
 output_dir := justfile_directory() / "output"
 
-default: txt pdf html docx
+default: txt tex typst html docx
 
 txt:
     mkdir -p {{ output_dir / "txt" }}
@@ -16,13 +16,21 @@ txt:
     sd '^    -   ' '    • ' {{ output_dir / "txt" / "cv-johannes-smit.txt" }}
     sd '^        -   ' '        ‣ ' {{ output_dir / "txt" / "cv-johannes-smit.txt" }}
 
-pdf:
-    mkdir -p {{ output_dir / "pdf" }}
+tex:
+    mkdir -p {{ output_dir / "tex" }}
     pandoc \
         --from=markdown \
         --pdf-engine=tectonic \
         --template={{ src_dir / "template.tex" }} \
-        --output={{ output_dir / "pdf" / "cv-johannes-smit.pdf" }} \
+        --output={{ output_dir / "tex" / "cv-johannes-smit.pdf" }} \
+        {{ input_file }}
+
+typst:
+    mkdir -p {{ output_dir / "typst" }}
+    pandoc \
+        --from=markdown \
+        --pdf-engine=typst \
+        --output={{ output_dir / "typst" / "cv-johannes-smit.pdf" }} \
         {{ input_file }}
 
 html:
