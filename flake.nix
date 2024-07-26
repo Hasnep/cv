@@ -28,6 +28,7 @@
               pkgs.pandoc
               pkgs.sd
               pkgs.tectonic
+              pkgs.typst
             ];
           };
           formatter = pkgs.nixfmt-rfc-style;
