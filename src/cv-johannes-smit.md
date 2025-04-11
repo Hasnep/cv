@@ -49,6 +49,6 @@ Experienced data engineer in Taiwan with a background in statistics and mathemat
 
 ### Skills
 
-- As well as being fluent in Python, SQL and Terraform, I develop open-source projects in Julia, Rust and Roc as a hobby.
+- As well as being fluent in Python, SQL and Terraform, I develop open-source projects in Gleam, Roc and Julia as a hobby.
   My portfolio of personal projects can be found on my website ([`ha.nnes.dev`](https://ha.nnes.dev/)).
 - Languages: English (native), Afrikaans (fluent), Spanish (intermediate) and Mandarin (beginner).
