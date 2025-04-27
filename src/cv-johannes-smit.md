@@ -9,7 +9,7 @@ contact:
     link: https://github.com/hasnep/
 ---
 
-Experienced data engineer in Taiwan with a background in statistics and mathematics.
+Data engineer with expertise in building data pipelines for analysis and machine learning solutions in both Taiwan and the UK.
 
 ### Employment
 
