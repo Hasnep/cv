@@ -15,7 +15,7 @@ Experienced data engineer in Taiwan with a background in statistics and mathemat
 
 - November 2023 to Present: Data Engineer, Mobagel (Taipei, Taiwan)
   - Optimised raw-data loading pipeline to reduce costs by 90%, enabling onboarding a new client with 10 times more data than all previous clients.
-  - Lead the design and development of a new data pipeline and client-facing dashboard to bring insights about traffic sources to clients, while working closely with product team to iterate quickly on features.
+  - Led the design and development of a new data pipeline and client-facing dashboard to bring insights about traffic sources to clients, while working closely with product team to iterate quickly on features.
 - October 2021 to November 2022: Data Engineer, Sainsbury's (London, UK)
   - Maintained and developed ELT pipelines processing structured and semi-structured data from a variety of data sources including Kafka, SFTP and S3. (Airflow, Snowflake, AWS, Terraform)
   - Was part of a team to design and develop the data engineering department's new standardised data pipeline tool, integrating dbt with Airflow to allow for significantly faster development times and enabling efficient cross-team collaboration. (dbt, Airflow, GitHub Actions, Python)
@@ -43,7 +43,7 @@ Experienced data engineer in Taiwan with a background in statistics and mathemat
 ### Education
 
 - 2015 to 2019: MMath Mathematics, 2:1 (University of Exeter, UK)
-  - Dissertation used regression and Gaussian processes to provide human-understandable insights into to machine learning algorithms.
+  - Dissertation used regression and Gaussian processes to provide human-understandable insights of machine learning algorithms.
     - Successfully modelled a neural network using multiple techniques in a way that simplified the complex internal system to well-understood statistical processes. (R, Keras)
   - Other modules included statistical modelling, machine learning and spatio-temporal statistics.
 
