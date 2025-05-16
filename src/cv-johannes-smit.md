@@ -14,9 +14,13 @@ Data engineer with expertise in building data pipelines for analysis and machine
 ### Employment
 
 - November 2023 to Present: Data Engineer, Mobagel (Taipei, Taiwan)
-  - Reduced data pipeline costs by 90% which enabled us to onboard a client with 10 times more data than previous clients.
-  - Led the design and development of a new data pipeline and client-facing dashboard to bring insights about traffic sources to clients, while working closely with product team to iterate quickly on features.
-  - Identified a risk in secret handling and designed a new secrets management strategy which secured all our systems.
+  - Engineered a 90% cost reduction (from $2000 to $200) to onboard a new client with 10 billion historical events (5TB) and 13 million new daily events, 7 times larger than all previous clients combined.
+    Implemented (BigQuery)
+  - Debugged a problem where the model pipeline was 18 times slower for one client than all other clients (3 hours vs 10 minutes) which senior engineers had been unable to resolve.
+    Through in-depth query plan analysis, identified that outliers in the data were causing a join to not be efficiently run in parallel.
+  - Led the design and development of a new data pipeline and client-facing dashboard to bring insights about traffic sources to clients, while working closely with product team to iterate quickly on features. (Airflow, Looker)
+  - Identified a risk in secret handling and designed a new secrets management strategy which secured all our systems. (GCP)
+  - Introduced code quality checks to catch errors before they were even pushed. (GitLab CI)
 - October 2021 to November 2022: Data Engineer, Sainsbury's (London, UK)
   - Maintained and developed ELT pipelines processing structured and semi-structured data from a variety of data sources including Kafka, SFTP and S3. (Airflow, Snowflake, AWS, Terraform)
   - Was part of a team to design and develop the data engineering department's new standardised data pipeline tool, integrating dbt with Airflow to allow for significantly faster development times and enabling efficient cross-team collaboration. (dbt, Airflow, GitHub Actions, Python)
