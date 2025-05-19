@@ -14,7 +14,7 @@ Data engineer with expertise in building data pipelines for analysis and machine
 ### Employment
 
 - November 2023 to Present: Data Engineer, Mobagel (Taipei, Taiwan)
-  - Reduced data pipeline costs by 90% which enabled us to onboard a client with 10 times more data than previous clients. 
+  - Reduced data pipeline costs by 90% which enabled us to onboard a client with 10 times more data than previous clients.
   - Led the design and development of a new data pipeline and client-facing dashboard to bring insights about traffic sources to clients, while working closely with product team to iterate quickly on features.
 - October 2021 to November 2022: Data Engineer, Sainsbury's (London, UK)
   - Maintained and developed ELT pipelines processing structured and semi-structured data from a variety of data sources including Kafka, SFTP and S3. (Airflow, Snowflake, AWS, Terraform)
