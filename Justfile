@@ -46,3 +46,7 @@ docx:
         --from=markdown \
         --output={{ output_dir / "docx" / "cv-johannes-smit.docx" }} \
         {{ input_file }}
+
+format:
+    mdformat **/*.md
+    nix fmt **/*.nix
