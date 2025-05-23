@@ -29,6 +29,13 @@
               pkgs.sd
               pkgs.tectonic
               pkgs.typst
+            ]++[
+              # Mdformat
+              (pkgs.python3.withPackages (python-pkgs: [
+                python-pkgs.mdformat
+                python-pkgs.mdformat-frontmatter
+                python-pkgs.mdformat-gfm
+              ]))
             ];
           };
           formatter = pkgs.nixfmt-rfc-style;
