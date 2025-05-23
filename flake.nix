@@ -23,20 +23,29 @@
         {
           devShells.default = pkgs.mkShell {
             name = "cv";
-            packages = [
-              pkgs.just
-              pkgs.pandoc
-              pkgs.sd
-              pkgs.tectonic
-              pkgs.typst
-            ]++[
-              # Mdformat
-              (pkgs.python3.withPackages (python-pkgs: [
-                python-pkgs.mdformat
-                python-pkgs.mdformat-frontmatter
-                python-pkgs.mdformat-gfm
-              ]))
-            ];
+            packages =
+              [
+                pkgs.just
+                pkgs.pandoc
+                pkgs.sd
+                pkgs.tectonic
+                pkgs.typst
+              ]
+              # Pre-commit
+              ++ [
+                pkgs.actionlint
+                pkgs.markdownlint-cli2
+                (pkgs.python3.withPackages (python-pkgs: [
+                  python-pkgs.mdformat
+                  python-pkgs.mdformat-frontmatter
+                ]))
+                pkgs.nixfmt-rfc-style
+                pkgs.nodePackages.prettier
+                pkgs.pre-commit
+                pkgs.python3Packages.pre-commit-hooks
+                pkgs.ratchet
+                pkgs.taplo
+              ];
           };
           formatter = pkgs.nixfmt-rfc-style;
         };
