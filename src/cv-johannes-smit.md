@@ -19,7 +19,8 @@ Data engineer with expertise in building data pipelines for analysis and machine
     Through in-depth query plan analysis, identified that outliers in the data were causing a join to not be efficiently run in parallel.
   - Led the design and development of a new data pipeline and client-facing dashboard to bring insights about traffic sources to clients, while working closely with product team to iterate quickly on features. (Airflow, Looker)
   - Identified a risk in secret handling and designed a new secrets management strategy which secured all our systems. (GCP)
-  - Introduced code quality checks to catch errors before they were even pushed. (GitLab CI)
+  - Introduced property-based unit testing to automatically generate thousands of test cases which found bugs and increased the team's confidence in our data quality. (Hypothesis)
+  - Introduced code quality checks to catch errors before they were pushed. (GitLab CI)
 - October 2021 to November 2022: Data Engineer, Sainsbury's (London, UK)
   - Maintained and developed ELT pipelines processing structured and semi-structured data from a variety of data sources including Kafka, SFTP and S3. (Airflow, Snowflake, AWS, Terraform)
   - Was part of a team to design and develop the data engineering department's new standardised data pipeline tool, integrating dbt with Airflow to allow for significantly faster development times and enabling efficient cross-team collaboration. (dbt, Airflow, GitHub Actions, Python)
