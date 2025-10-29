@@ -30,6 +30,7 @@ typst:
     pandoc \
         --from=markdown \
         --pdf-engine=typst \
+        --template={{ src_dir / "template.typst" }} \
         --output={{ output_dir / "typst" / "cv-johannes-smit.pdf" }} \
         {{ input_file }}
 

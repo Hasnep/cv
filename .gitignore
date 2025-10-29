@@ -1,6 +1,1 @@
-*.docx
-*.html
-*.pdf
-*.tex
-*.txt
-!template.tex
+output/

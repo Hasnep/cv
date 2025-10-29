@@ -1,0 +1,22 @@
+#set document(
+  title: "Johannes Smit",
+  author: "Johannes Smit",
+)
+#set page(
+  paper: "a4",
+  margin: (x: 25mm, y: 35mm),
+)
+#set par(justify: true, leading: 0.7em)
+#set text(size: 10pt, font: "New Computer Modern")
+#set list(tight: false, marker: ([•], [--], [∗]), spacing: 1em)
+
+#align(center)[#title()]
+
+#align(center)[
+  $for(contact)$
+  #h(1fr) • #link("${ contact.link }".replace("\@", "@"))[#raw("${ contact.display }".replace("\@", "@"))]
+  $endfor$
+  #h(1fr)
+]
+
+$body$
