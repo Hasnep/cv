@@ -1,8 +1,21 @@
 src_dir := justfile_directory() / "src"
 input_file := src_dir / "cv-johannes-smit.md"
-output_dir := justfile_directory() / "output"
+output_dir := env_var_or_default("OUTPUT_DIR", justfile_directory() / "output")
 
-default: txt tex typst html docx
+help:
+    just --list
+
+[parallel]
+all: md txt tex typst html docx
+
+md:
+    mkdir -p {{ output_dir / "md" }}
+    pandoc \
+        --from=markdown \
+        --to=commonmark \
+        --wrap=none \
+        --output={{ output_dir / "md" / "cv-johannes-smit.md" }} \
+        {{ input_file }}
 
 txt:
     mkdir -p {{ output_dir / "txt" }}
@@ -18,12 +31,14 @@ txt:
 
 tex:
     mkdir -p {{ output_dir / "tex" }}
-    pandoc \
-        --from=markdown \
-        --pdf-engine=tectonic \
-        --template={{ src_dir / "template.tex" }} \
-        --output={{ output_dir / "tex" / "cv-johannes-smit.pdf" }} \
-        {{ input_file }}
+    export TEMPDIR=$(mktemp -d) && \
+        env HOME=$TEMPDIR pandoc \
+            --from=markdown \
+            --pdf-engine=pdflatex \
+            --template={{ src_dir / "template.tex" }} \
+            --output=$TEMPDIR/cv-johannes-smit.pdf \
+            {{ input_file }} && \
+        cp $TEMPDIR/cv-johannes-smit.pdf {{ output_dir / "tex" / "cv-johannes-smit.pdf" }}
 
 typst:
     mkdir -p {{ output_dir / "typst" }}
