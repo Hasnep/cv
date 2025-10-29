@@ -12,9 +12,9 @@ txt:
         --wrap=none \
         --output={{ output_dir / "txt" / "cv-johannes-smit.txt" }} \
         {{ input_file }}
-    sd '^-   ' '' {{ output_dir / "txt" / "cv-johannes-smit.txt" }}
-    sd '^    -   ' '    • ' {{ output_dir / "txt" / "cv-johannes-smit.txt" }}
-    sd '^        -   ' '        ‣ ' {{ output_dir / "txt" / "cv-johannes-smit.txt" }}
+    sd '^- ' '' {{ output_dir / "txt" / "cv-johannes-smit.txt" }}
+    sd '^  - ' '• ' {{ output_dir / "txt" / "cv-johannes-smit.txt" }}
+    sd '^    - ' "\t‣ " {{ output_dir / "txt" / "cv-johannes-smit.txt" }}
 
 tex:
     mkdir -p {{ output_dir / "tex" }}
