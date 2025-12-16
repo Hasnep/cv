@@ -14,8 +14,7 @@ Data engineer with expertise in building data pipelines for analysis and machine
 ### Employment
 
 - November 2023 to Present: Data Engineer, Mobagel (Taipei, Taiwan)
-  - Engineered a 90% cost reduction (from $2000 to $200) to onboard a new client with 10 billion historical events (5TB) and 13 million new daily events, 7 times larger than all previous clients combined.
-    Implemented (BigQuery)
+  - Engineered a 90% cost reduction (from $2000 to $200) to onboard a new client with 10 billion historical events (5TB) and 13 million new daily events, 7 times larger than all previous clients combined. (BigQuery)
   - Debugged a problem where the model pipeline was 18 times slower for one client than all other clients (3 hours vs 10 minutes) which senior engineers had been unable to resolve.
     Through in-depth query plan analysis, identified that outliers in the data were causing a join to not be efficiently run in parallel.
   - Led the design and development of a new data pipeline and client-facing dashboard to bring insights about traffic sources to clients, while working closely with product team to iterate quickly on features. (Airflow, Looker)
