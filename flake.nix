@@ -44,6 +44,7 @@
               pkgs.rumdl
               pkgs.taplo
               pkgs.tex-fmt
+              pkgs.typstyle
               # keep-sorted end
             ];
           };

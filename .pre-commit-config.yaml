@@ -55,6 +55,13 @@ repos:
         language: system
         entry: tex-fmt
         types: [tex]
+      # Tyspt
+      - name: Format Tyspt files
+        id: typst=fprmat
+        language: system
+        entry: typstyle --inplace
+        # types: [typst]
+        files: .*\.typst$
       # YAML
       - name: Format YAML files
         id: yaml-format
