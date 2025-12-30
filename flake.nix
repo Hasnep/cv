@@ -44,6 +44,7 @@
               pkgs.ratchet
               pkgs.rumdl
               pkgs.taplo
+              pkgs.tex-fmt
               # keep-sorted end
             ];
           };
