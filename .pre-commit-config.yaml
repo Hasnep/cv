@@ -47,13 +47,7 @@ repos:
       - name: Format markdown files
         id: markdown-format
         language: system
-        entry: mdformat
-        types: [markdown]
-      - name: Check markdown files
-        id: markdown-check
-        language: system
-        entry: markdownlint-cli2
-        args: [--config, .markdownlint.json]
+        entry: rumdl fmt
         types: [markdown]
       # YAML
       - name: Format YAML files
