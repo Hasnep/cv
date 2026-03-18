@@ -37,7 +37,11 @@
 \usepackage{enumitem}
 
 % Pandoc command for tighter lists
-\providecommand{\tightlist}{\setlength{\itemsep}{0.5pt}\setlength{\parskip}{0.5pt}\setlist{leftmargin=1em}}
+\providecommand{\tightlist}{
+  \setlength{\itemsep}{0.5pt}
+  \setlength{\parskip}{0.5pt}
+  \setlist{leftmargin=1em}
+}
 
 % Remove section numbering
 \setcounter{secnumdepth}{-\maxdimen}
@@ -46,10 +50,16 @@
 \title{$title$}
 
 \begin{document}
-\section*{\begin{center}$title$\end{center}}
+\section*{
+  \begin{center}
+    $title$
+  \end{center}
+}
 
 $for(contact)$
-\hfill{}\textbullet\enspace \href{${ contact.link }}{\texttt{${ contact.display }}}
+\hfill{}\textbullet{}\enspace{} \href{${ contact.link }}{\
+  \texttt{${ contact.display }}\
+}
 $endfor$
 \hfill{}
 \\

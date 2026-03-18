@@ -49,6 +49,12 @@ repos:
         language: system
         entry: rumdl fmt
         types: [markdown]
+      # LaTeX
+      - name: Format LaTeX files
+        id: latex-format
+        language: system
+        entry: tex-fmt
+        types: [tex]
       # YAML
       - name: Format YAML files
         id: yaml-format
