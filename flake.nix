@@ -37,7 +37,7 @@
               # keep-sorted start
               pkgs.actionlint
               pkgs.keep-sorted
-              pkgs.nixfmt-rfc-style
+              pkgs.nixfmt
               pkgs.nodePackages.prettier
               pkgs.pre-commit
               pkgs.python3Packages.pre-commit-hooks
@@ -47,7 +47,7 @@
               # keep-sorted end
             ];
           };
-          formatter = pkgs.nixfmt-rfc-style;
+          formatter = pkgs.nixfmt-tree;
         };
     };
 }
