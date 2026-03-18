@@ -82,3 +82,9 @@ repos:
         entry: ratchet check
         types: [yaml]
         files: \.github/workflows/.*\.ya?ml$
+      # Keep sorted
+      - name: Keep sorted
+        id: keep-sorted
+        language: system
+        entry: keep-sorted
+        types: [text]

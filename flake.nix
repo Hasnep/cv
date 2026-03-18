@@ -24,15 +24,19 @@
           devShells.default = pkgs.mkShell {
             name = "cv";
             packages = [
+              # keep-sorted start
               pkgs.just
               pkgs.pandoc
               pkgs.sd
               pkgs.tectonic
               pkgs.typst
+              # keep-sorted end
             ]
             # Pre-commit
             ++ [
+              # keep-sorted start
               pkgs.actionlint
+              pkgs.keep-sorted
               pkgs.nixfmt-rfc-style
               pkgs.nodePackages.prettier
               pkgs.pre-commit
@@ -40,6 +44,7 @@
               pkgs.ratchet
               pkgs.rumdl
               pkgs.taplo
+              # keep-sorted end
             ];
           };
           formatter = pkgs.nixfmt-rfc-style;
