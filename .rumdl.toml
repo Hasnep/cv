@@ -1,0 +1,18 @@
+[global]
+flavor = "commonmark"
+disable = [
+  # keep-sorted start
+  "MD001", # Heading increment
+  "MD013", # Line length
+  # keep-sorted end
+]
+exclude = ["output"]
+
+[MD003]
+style = "atx" # Heading style (atx, atx_closed, setext)
+
+[MD004]
+style = "dash" # Unordered list style
+
+[MD007]
+indent = 2 # Unordered list indentation
