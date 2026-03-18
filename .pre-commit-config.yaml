@@ -75,6 +75,13 @@ repos:
         language: system
         entry: nixfmt
         types: [nix]
+      # Justfile
+      - name: Format Justfile
+        id: just-format
+        language: system
+        entry: just --unstable --fmt
+        files: Justfile
+        pass_filenames: false
       # GitHub Actions
       - name: Validate GitHub Actions workflow files
         id: github-workflows-check
