@@ -46,3 +46,6 @@ docx:
         --from=markdown \
         --output={{ output_dir / "docx" / "cv-johannes-smit.docx" }} \
         {{ input_file }}
+
+clean:
+    rm -rf {{ output_dir }}
